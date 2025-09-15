@@ -37,6 +37,7 @@ public void add_Place_Payload_with(String name, String language, String address)
 	    // Write code here that turns the phrase above into concrete actions
 	
 		 System.out.println("shri shri");
+		 System.out.println("shri shri");
 		 res=given().spec(requestSpecification())
 		.body(data.addPlacePayLoad(name,language,address));
 	}
