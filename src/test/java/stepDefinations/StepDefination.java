@@ -36,7 +36,7 @@ public class StepDefination extends Utils {
 public void add_Place_Payload_with(String name, String language, String address) throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
 	
-		 
+		 System.out.println("shri shri");
 		 res=given().spec(requestSpecification())
 		.body(data.addPlacePayLoad(name,language,address));
 	}
